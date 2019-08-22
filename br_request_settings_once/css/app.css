@@ -7296,16 +7296,30 @@ html {
             background-color: rgba(0, 0, 0, 0.04); }
 
 /** @define cashier */
-.cashier__content {
-  width: 100%; }
-
-.cashier__error {
-  font-size: 1.6rem;
-  align-self: center; }
-  .theme--light .cashier__error {
-    color: rgba(0, 0, 0, 0.8); }
-  .theme--dark .cashier__error {
-    color: #7f8397; }
+.cashier {
+  /** @define cashier-error */ }
+  .cashier__content {
+    width: 100%; }
+  .cashier__wrapper {
+    width: 100%;
+    height: 100%;
+    text-align: center; }
+  .cashier-error__icon {
+    width: 6.4rem;
+    height: 6.4rem;
+    margin-top: 8.7rem;
+    margin-bottom: 1.6rem; }
+  .cashier-error__text {
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.5; }
+    .theme--light .cashier-error__text {
+      color: #e31c4b; }
+    .theme--dark .cashier-error__text {
+      color: #e31c4b; }
+  .cashier-error__button {
+    margin-top: 3.2rem;
+    height: 4rem; }
 
 /** @define withdraw */
 .withdraw__text {
@@ -7314,11 +7328,6 @@ html {
     color: rgba(0, 0, 0, 0.8); }
   .theme--dark .withdraw__text {
     color: #7f8397; }
-
-.withdraw__wrapper {
-  width: 100%;
-  height: 100%;
-  text-align: center; }
 
 .withdraw__verify-button {
   margin-top: 3.2rem;
