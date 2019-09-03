@@ -497,38 +497,6 @@ html {
     margin: 0;
     padding: 0; }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, input, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-html {
-  height: 100%; }
-
-body {
-  line-height: 1;
-  height: 100%; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
 .btn {
   font-size: 1em;
   display: inline-block;
@@ -5444,64 +5412,6 @@ html {
         .theme--dark .contract-type-item__icon-wrapper .category-wrapper .stroke-active {
           stroke: #ffffff; }
 
-.label {
-  font-size: 14px;
-  font-weight: bold;
-  height: 24px;
-  line-height: 20px;
-  border-radius: 12px;
-  padding: 2px 8px;
-  margin: 0 2px; }
-  .theme--light .label--default {
-    color: #f4f4f6;
-    background-color: #999cac; }
-  .theme--dark .label--default {
-    color: #f4f4f6;
-    background-color: #999cac; }
-  .theme--light .label--danger {
-    color: #e31c4b;
-    background-color: rgba(227, 28, 75, 0.16); }
-  .theme--dark .label--danger {
-    color: #e31c4b;
-    background-color: rgba(227, 28, 75, 0.16); }
-  .theme--light .label--warn {
-    color: #ff9933;
-    background-color: rgba(255, 153, 51, 0.16); }
-  .theme--dark .label--warn {
-    color: #ff9933;
-    background-color: rgba(255, 153, 51, 0.16); }
-  .theme--light .label--success {
-    color: #39b19d;
-    background-color: rgba(57, 177, 157, 0.16); }
-  .theme--dark .label--success {
-    color: #39b19d;
-    background-color: rgba(57, 177, 157, 0.16); }
-  .theme--light .label--success-invert {
-    color: #f4f4f6;
-    background-color: #39b19d; }
-  .theme--dark .label--success-invert {
-    color: #f4f4f6;
-    background-color: #39b19d; }
-  .theme--light .label--warn-invert {
-    color: #f4f4f6;
-    background-color: #ff9933; }
-  .theme--dark .label--warn-invert {
-    color: #f4f4f6;
-    background-color: #ff9933; }
-  .theme--light .label--info {
-    color: #2196f3;
-    background-color: rgba(33, 150, 243, 0.16); }
-  .theme--dark .label--info {
-    color: #2196f3;
-    background-color: rgba(33, 150, 243, 0.16); }
-  .label--large {
-    height: 28px;
-    line-height: 24px;
-    border-radius: 20px;
-    padding: 4px 8px 4px 4px;
-    margin: 0 2px;
-    font-size: 16px; }
-
 /** @define trade-type-info-dialog; */
 .trade-type-info-dialog {
   right: 0.4em;
@@ -7007,8 +6917,8 @@ html {
       font-size: 1.6rem; }
   .account-wallet .current-loginid, .account-wallet .symbols {
     margin-left: 4px; }
-  .account-wallet .label {
-    margin-left: 16px; }
+  .account-wallet__label {
+    margin-left: 16px !important; }
   .account-wallet .inline-icon {
     width: 24px;
     height: 24px;
